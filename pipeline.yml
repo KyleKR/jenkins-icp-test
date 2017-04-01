@@ -70,12 +70,12 @@ stages:
     type: text_area
   - name: REMOTE_COMMAND
     value: |-
-      /opt/apache-tomcat-8.5.11/bin/shutdown.sh
+      /opt/apache-tomcat-8.5.12/bin/shutdown.sh
 
       rm -rf /opt/petclinic/webapp
       unzip -q /tmp/spring-petclinic-1.4.2.war -d /opt/petclinic/webapp
 
-      /opt/apache-tomcat-8.5.11/bin/startup.sh
+      /opt/apache-tomcat-8.5.12/bin/startup.sh
     type: text_area
   jobs:
   - name: Deploy
