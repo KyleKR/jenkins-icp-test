@@ -233,7 +233,7 @@ stages:
       \ of logs: green, red, label_color, no_color.\nif [ $RESULT -ne 0 ]; then\n\
       \    echo -e \"${red}Executed failed or had warnings ${no_color}\"\n    ${EXT_DIR}/print_help.sh\n\
       \    exit $RESULT\nfi\necho -e \"${green}Execution complete${no_label}\""
-    PORT: '8080'
+    PORT: '80'
     CONTAINER_NAME: DevOps_PoC_1_EWS
     DEPLOY_TYPE: red_black
 hooks:
