@@ -1,4 +1,4 @@
 applications:
-- name: devops_poc_1_ews
+- name: 170330DevOps
   path: /tmp/spring-petclinic-1.4.2.war
   memory: 256M
