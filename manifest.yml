@@ -1,4 +1,4 @@
 applications:
 - name: 170330DevOps
-  path: /target/spring-petclinic-1.4.2.war
+  path: test/target/spring-petclinic-1.4.2.war
   memory: 256M
